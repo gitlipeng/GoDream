@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="120.0dip"
+    android:background="#ff6dc1a0"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        style="@style/styleWrapHeight"
+        android:layout_marginTop="15.0dip" >
+
+        <LinearLayout
+            android:id="@+id/imageCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:paddingBottom="5.0dip"
+            android:paddingLeft="15.0dip"
+            android:paddingTop="5.0dip" >
+
+            <ImageView
+                style="@style/styleWrapAll"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/b2c_bar_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imageMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:paddingLeft="15.0dip" >
+
+            <ImageView
+                style="@style/styleWrapAll"
+                android:layout_marginRight="20.0dip"
+                android:src="@drawable/b2c_bar_menu"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/styleWrapAll"
+            android:layout_gravity="center"
+            android:text="商品"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/layoutSearch"
+        style="@style/styleWrapHeight"
+        android:layout_height="34.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/b2c_search_box"
+         >
+
+        <ImageView
+            style="@style/styleWrapAll"
+            android:layout_gravity="right|center"
+            android:layout_marginLeft="10.0dip"
+            android:src="@drawable/b2c_search_icon" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:gravity="left|center"
+            android:hint="请输入商品关键词"
+            android:textSize="14.0sp" />
+    </FrameLayout>
+
+</LinearLayout>

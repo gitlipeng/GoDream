@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/htmlTopBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/topicTitleAndShareLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="49.0dip"
+            android:layout_alignParentTop="true"
+            android:background="@color/detail_subtitle_text_bg" >
+
+            <RelativeLayout
+                android:id="@+id/topicBackButtonLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="15.0dip" >
+
+                <ImageView
+                    android:id="@+id/topicBackButton"
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_back_orange" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/topicTitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="40.0dip"
+                android:layout_marginRight="40.0dip"
+                android:singleLine="true"
+                android:textColor="@color/topic_detail_title_text_color"
+                android:textSize="15.0sp"
+                android:text="景点" />
+
+            <RelativeLayout
+                android:id="@+id/topicShareButtonLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="15.0dip">
+
+                <ImageView
+                    android:id="@+id/topicShareButton"
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_share" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/webViewProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_below="@id/topicTitleAndShareLayout"
+            android:max="100" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/htmlViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:layerType="software" 
+        android:layout_below="@id/htmlTopBar"/>
+</RelativeLayout>

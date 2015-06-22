@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/foot_bg"
+    android:orientation="horizontal"
+    android:weightSum="5.0" >
+
+    <TextView
+        android:id="@+id/foot_home"
+        style="@style/foot_btn"
+        android:drawableTop="@drawable/foot_home"
+        android:text="@string/home_page" />
+
+    <TextView
+        android:id="@+id/foot_now"
+        style="@style/foot_btn"
+        android:drawableTop="@drawable/foot_near"
+        android:text="@string/nearby" />
+
+    <LinearLayout
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/foot_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="1.0dip"
+            android:drawableTop="@drawable/foot_channel"
+            android:gravity="center"
+            android:text="频道"
+            android:textColor="@color/gray"
+            android:textSize="12.0sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/foot_push"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/foot_push_notice"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/foot_my"
+        style="@style/foot_btn"
+        android:drawableTop="@drawable/foot_my"
+        android:text="我的" />
+
+    <TextView
+        android:id="@+id/foot_more"
+        style="@style/foot_btn"
+        android:drawableTop="@drawable/foot_more"
+        android:text="更多" />
+
+</LinearLayout>

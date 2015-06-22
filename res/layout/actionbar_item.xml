@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar_item"
+    android:layout_width="@dimen/actionbar_bg_height"
+    android:layout_height="@dimen/actionbar_bg_height"
+    android:layout_marginLeft="1dp"
+    android:background="@drawable/actionbar_item_selector"
+    android:layout_centerVertical="true"
+    android:padding="5dp"
+    android:singleLine="true"
+    android:visibility="visible" >
+
+</ImageButton>

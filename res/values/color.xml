@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="lightwhite">#ddd</color>
+    <color name="white">#fff</color>
+    <color name="gray">#ccc</color>
+    <color name="item_press">#33B5E5</color>
+	<color name="black">#000</color>
+	
+	<color name="gray2">#ff333333</color>
+    <color name="gray3">#333333</color>
+
+    <color name="pink">#FB667B</color>
+    <color name="orange">#F48221</color>
+    <color name="skyblue">#23BBEA</color>
+    <color name="skyblue2">#01CAD4</color>
+    <color name="deepred">#DD455A</color>
+    <color name="green">#1BC266</color>
+    <color name="yellow">#F1C40F</color>
+    <color name="deepblue">#0E8EAB</color>
+    
+    <color name="new_user_guide_subtitle_text">#ffa4a3a3</color>
+    <color name="catalog_listview_item_title_text_color">#ff696969</color>
+    <color name="catalog_listview_item_title_bg_color">#ffe6e6e6</color>
+    <color name="orage">#fffa9f00</color>
+    
+    <color name="touming">#00000000</color>
+    
+    <color name="topic_detail_title_text_color">#ff424242</color>
+    <color name="detail_subtitle_text_bg">#fff2f2f2</color>
+    <color name="list_item_selected">#0d000000</color>
+     <color name="my_mfw_name_text_color">#ff545454</color>
+    
+    <color name="actionbar_title">#FFFFFF</color>
+    <color name="actionbar_background_start">#8B1A1A</color>
+    <color name="actionbar_background_end">#CD2626</color>
+    <color name="actionbar_background_item_pressed_start">#FF7F00</color>
+    <color name="actionbar_background_item_pressed_end">#EE7600</color>
+    
+     <color name="light_blue">#ffafe4ff</color>
+     <color name="screen_bgcolor">#FFB6B6B6</color>
+     <color name="black_color">#ff000000</color>
+     <color name="selector_gray">#ffd1cdcd</color>
+</resources>

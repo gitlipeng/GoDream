@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 根标签为animation-list，其中oneshot代表着是否只展示一遍，设置为false会不停的循环播放动画 根标签下，通过item标签对动画中的每一个图片进行声明
+	android:duration 表示展示所用的该图片的时间长度 每个item就是一帧，drawable是该帧显示的图片，duration是显示时间，
+	android:oneshot=”false”表示动画一直进行，若为true则表示只播放一次动画 -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+	android:oneshot="true">
+	<item android:drawable="@drawable/num_1" android:duration="100"/>
+	<item android:drawable="@drawable/num_2" android:duration="100"/>
+	<item android:drawable="@drawable/num_3" android:duration="100"/>
+	<item android:drawable="@drawable/num_4" android:duration="100"/>
+	<item android:drawable="@drawable/num_5" android:duration="100"/>
+	<item android:drawable="@drawable/num_6" android:duration="100"/>
+	<item android:drawable="@drawable/num_7" android:duration="100"/>
+	<item android:drawable="@drawable/num_8" android:duration="100"/>
+	<item android:drawable="@drawable/num_9" android:duration="100"/>
+	<item android:drawable="@drawable/num_10" android:duration="100"/>
+	<item android:drawable="@drawable/num_11" android:duration="100"/>
+	<item android:drawable="@drawable/num_12" android:duration="100"/>
+	<item android:drawable="@drawable/num_13" android:duration="100"/>
+	<item android:drawable="@drawable/num_14" android:duration="100"/>
+	<item android:drawable="@drawable/num_15" android:duration="100"/>
+	<item android:drawable="@drawable/num_16" android:duration="100"/>
+	<item android:drawable="@drawable/num_17" android:duration="100"/>
+	<item android:drawable="@drawable/num_18" android:duration="100"/>
+	<item android:drawable="@drawable/num_19" android:duration="100"/>
+	<item android:drawable="@drawable/num_20" android:duration="100"/>
+	<item android:drawable="@drawable/num_21" android:duration="100"/>
+	<item android:drawable="@drawable/num_22" android:duration="100"/>
+	<item android:drawable="@drawable/num_23" android:duration="100"/>
+	<item android:drawable="@drawable/num_24" android:duration="100"/>
+	<item android:drawable="@drawable/num_25" android:duration="100"/>
+	<item android:drawable="@drawable/num_26" android:duration="100"/>
+	<item android:drawable="@drawable/num_27" android:duration="100"/>
+	<item android:drawable="@drawable/num_28" android:duration="100"/>
+	<item android:drawable="@drawable/num_29" android:duration="100"/>
+	<item android:drawable="@drawable/num_30" android:duration="100"/>
+	<item android:drawable="@drawable/num_31" android:duration="100"/>
+	<item android:drawable="@drawable/num_32" android:duration="100"/>
+	<item android:drawable="@drawable/num_33" android:duration="100"/>
+	<item android:drawable="@drawable/num_34" android:duration="100"/>
+	<item android:drawable="@drawable/num_35" android:duration="100"/>
+	<item android:drawable="@drawable/num_36" android:duration="100"/>
+	<item android:drawable="@drawable/num_37" android:duration="100"/>
+	<item android:drawable="@drawable/num_38" android:duration="100"/>
+	<item android:drawable="@drawable/num_39" android:duration="100"/>
+	<item android:drawable="@drawable/num_40" android:duration="100"/>
+	
+</animation-list>

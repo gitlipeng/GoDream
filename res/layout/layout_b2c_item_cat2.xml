@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemParent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/catName"
+        android:layout_width="wrap_content"
+        android:layout_height="70.0dip"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="五金工具"
+        android:textColor="#ff6c6c6c"
+        android:textSize="14.0sp" />
+
+    <ImageView
+        android:id="@+id/imageArrow"
+        style="@style/styleWrapAll"
+        android:layout_gravity="right|center"
+        android:src="@drawable/arrow_darkgray"
+        android:visibility="invisible" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:background="@drawable/b2c_detail_divide" />
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_05">
+    <RelativeLayout
+        android:id="@+id/viewpager_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    <com.godream.defineview.HomeViewPager
+	            android:id="@+id/home_viewpager"
+	            android:layout_width="fill_parent"
+	            android:layout_height="150dip"
+	        	/>
+        <LinearLayout 
+            android:background="#000000"
+            android:id="@+id/viewPoints"
+            android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@id/home_viewpager"
+    		android:gravity="center_horizontal"
+    		android:orientation="horizontal"
+            ></LinearLayout>	    
+    </RelativeLayout>
+    <com.godream.defineview.HomeGridView 
+        android:id="@+id/home_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:background="@drawable/bg_blue"
+		android:layout_alignParentBottom="true"
+		android:layout_below="@id/viewpager_layout"
+        
+        android:drawSelectorOnTop="false"  
+        android:fadingEdgeLength="0.0dp"  
+        android:layoutAnimation="@anim/navagation_gridview_anim"  
+        android:cacheColorHint="@android:color/transparent" >
+    </com.godream.defineview.HomeGridView>
+</RelativeLayout>   

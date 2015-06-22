@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoDream</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="msg1">未来\n追寻我们自己的梦想</string>
+	<string name="msg2">"按住就能说话\n聊天是如此简单轻松"</string>
+    <string name="msg3">"透过视频聊天\n你甚至可以和朋友们\n面对面沟通"</string>
+    <string name="msg4">"摇一摇手机\n或者看看附近的人\n认识更多的朋友"</string>
+	<string name="msg5">"你还可以通过朋友圈\n和朋友们分享彼此的生活"</string>
+	<string name="msg6">"微信，是一个生活方式"</string>
+	<string name="msg_start_btn">"进入微信"</string>
+	
+	<string name="tab_1">动态</string>
+    <string name="tab_2">群组</string>
+    <string name="tab_3">好友</string>
+    <string name="tab_4">会话</string>
+    
+    <string name="startPostionHint">请输入起点</string>
+    <string name="endPostionHint">请输入终点</string>
+    <string name="search">查询</string>
+    <string name="dreammap_title">地图</string>
+    <string name="dreammap_right">切换</string>
+    <string name="missSearchMsg">请输入地址</string>
+    
+    <string name="hometitle">主页</string>
+    <string name="route_map_title">路线查找</string>
+    <string name="lands_title">图片</string>
+    
+    <string name="item1">导航</string>
+    <string name="item2">线路</string>
+    <string name="item3">图片</string>
+    <string name="item4">影院</string>
+    <string name="item5">联系人</string>
+    <string name="item6">景点</string>
+    <string name="item7">节庆</string>
+    <string name="item8">推荐</string>
+    <string name="item9">商品</string>
+    
+    <string name="guid_item1">多云的一天，记录一下心情…</string>
+    <string name="guid_item2">大风起兮云飞扬，如果感冒喝姜汤</string>
+    <string name="guid_item3">日</string>
+    <string name="guid_item4">雷电来袭</string>
+    <string name="guid_item5">喝个下午茶</string>
+    <string name="guid_item6">下雪了，不打伞可以走到白头</string>
+    <string name="guid_item7">情人雪</string>
+    <string name="guid_item8">单一气团降水少</string>
+    <string name="guid_item9">其他</string>
+    
+    <string name="menu_welcome_msg">欢迎回来</string>
+    
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">加载更多</string>
+    <string name="xlistview_footer_hint_ready">松开加载更多</string>
+    
+    <string name="home_page">首页</string>
+    <string name="nearby">附近</string>
+</resources>

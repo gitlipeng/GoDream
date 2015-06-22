@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:finger="http://schemas.android.com/apk/res/com.godream"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray2"
+    android:fadingEdge="none"
+    android:scrollbars="none" >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        >
+        <View 
+            android:id="@+id/viewMiddle"
+		    android:layout_width="4.0dip"
+		    android:layout_height="fill_parent"
+		    android:layout_centerHorizontal="true"/>
+        <com.godream.defineview.FingerImageView
+            android:id="@+id/guide_item1_id_bak"
+            android:layout_width="fill_parent"
+            android:layout_height="7.5dip"
+            android:layout_toLeftOf="@id/viewMiddle"
+            
+            finger:backcolor="@color/skyblue"
+            finger:text="@string/guid_item1"
+            finger:textSize="6sp"
+            finger:textColor="@color/white"
+            finger:text_x="10"
+            finger:text_y="30"
+            finger:image="@drawable/weathericon_cloud"
+            finger:height="width"/>
+        	
+        <com.godream.defineview.FingerImageView
+            android:id="@id/guide_item2_id"
+            android:layout_width="fill_parent"
+            android:layout_height="7.5dip"
+            android:layout_toLeftOf="@id/viewMiddle"
+            android:layout_below="@id/guide_item1_id_bak"
+            android:layout_marginTop="4.5dip"
+            
+            finger:backcolor="@color/orange"
+            finger:text="@string/guid_item2"
+            finger:textSize="6sp"
+            finger:textColor="@color/white"
+            finger:text_x="10"
+            finger:text_y="30"
+            finger:image="@drawable/weathericon_cloudy"
+            finger:height="width"/>
+        <com.godream.defineview.FingerImageView
+            android:id="@id/guide_item3_id"
+            android:layout_width="fill_parent"
+            android:layout_height="7.5dip"
+            android:layout_toLeftOf="@id/viewMiddle"
+            android:layout_below="@id/guide_item2_id"
+            android:layout_marginTop="4.5dip"
+            
+            finger:backcolor="@color/pink"
+            finger:text="@string/guid_item3"
+            finger:textSize="6sp"
+            finger:textColor="@color/white"
+            finger:text_x="10"
+            finger:text_y="30"
+            finger:image="@drawable/weathericon_sunny"
+            finger:height="halfofwidth"/>
+        <com.godream.defineview.FingerImageView
+            android:id="@id/guide_item4_id"
+            android:layout_width="fill_parent"
+            android:layout_height="7.5dip"
+            android:layout_toLeftOf="@id/viewMiddle"
+            android:layout_below="@id/guide_item3_id"
+            android:layout_marginTop="4.5dip"
+            
+            finger:backcolor="@color/skyblue"
+            finger:text="@string/guid_item4"
+            finger:textSize="6sp"
+            finger:textColor="@color/white"
+            finger:text_x="10"
+            finger:text_y="30"
+            finger:image="@drawable/weathericon_lightning"
+            finger:height="width"/>
+        
+        <com.godream.defineview.FingerImageView
+            android:id="@id/guide_item5_id"
+            android:layout_width="fill_parent"
+            android:layout_height="7.5dip"
+            android:layout_toRightOf="@id/viewMiddle"
+ 
+            finger:backcolor="@color/deepred"
+            finger:text="@string/guid_item5"
+            finger:textSize="6sp"
+            finger:text_x="65"
+            finger:text_y="70"
+            finger:textColor="@color/white"
+            finger:image="@drawable/weathericon_partlycloudysun"
+            finger:image_x="10"
+            finger:image_y="40"
+            finger:height="halfofwidth"/>           
+        <com.godream.defineview.FingerImageView
+            android:id="@id/guide_item6_id"
+            android:layout_width="fill_parent"
+            android:layout_height="7.5dip"
+            android:layout_toRightOf="@id/viewMiddle"
+            android:layout_below="@id/guide_item5_id"
+            android:layout_marginTop="4.5dip"
+            
+            finger:backcolor="@color/green"
+            finger:text="@string/guid_item6"
+            finger:textSize="6sp"
+            finger:textColor="@color/white"
+            finger:text_x="10"
+            finger:text_y="30"
+            finger:image="@drawable/weathericon_snow_rain"
+            finger:height="width"/>
+        <com.godream.defineview.FingerImageView
+            android:id="@id/guide_item7_id"
+            android:layout_width="fill_parent"
+            android:layout_height="7.5dip"
+            android:layout_toRightOf="@id/viewMiddle"
+            android:layout_below="@id/guide_item6_id"
+            android:layout_marginTop="4.5dip"
+            
+            finger:backcolor="@color/skyblue2"
+            finger:text="@string/guid_item7"
+            finger:textSize="6sp"
+            finger:textColor="@color/white"
+            finger:text_x="10"
+            finger:text_y="30"
+            finger:image="@drawable/weathericon_snow"
+            finger:height="halfofwidth"/>
+        
+        <com.godream.defineview.FingerImageView
+            android:id="@id/guide_item8_id"
+            android:layout_width="fill_parent"
+            android:layout_height="7.5dip"
+            android:layout_toRightOf="@id/viewMiddle"
+            android:layout_below="@id/guide_item7_id"
+            android:layout_marginTop="4.5dip"
+            
+            finger:backcolor="@color/yellow"
+            finger:text="@string/guid_item8"
+            finger:textSize="6sp"
+            finger:textColor="@color/white"
+            finger:text_x="10"
+            finger:text_y="30"
+            finger:image="@drawable/weathericon_rain"
+            finger:height="width"/>
+        <com.godream.defineview.FingerImageView
+            android:id="@id/guide_item9_id"
+            android:layout_width="fill_parent"
+            android:layout_height="7.5dip"
+            android:layout_toRightOf="@id/viewMiddle"
+            android:layout_below="@id/guide_item8_id"
+            android:layout_marginTop="4.5dip"
+            
+            finger:backcolor="@color/deepblue"
+            finger:text="@string/guid_item9"
+            finger:textSize="6sp"
+            finger:textColor="@color/white"
+            finger:text_x="10"
+            finger:text_y="30"
+            finger:image="@drawable/weathericon_none"
+            finger:height="halfofwidth"/>
+    </RelativeLayout>
+</ScrollView>

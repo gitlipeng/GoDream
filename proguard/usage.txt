@@ -1,0 +1,360 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.godream.B2C_CatActivity:
+    109:115:private android.view.animation.Animation getTransSet(android.view.View)
+com.godream.BuildConfig
+com.godream.HtmlViewActivity:
+    118:125:public java.util.List getShareTargets()
+com.godream.MainActivity:
+    private android.widget.ListView mMenuListView
+    229:229:public void onPageScrollStateChanged(int)
+    234:234:public void onPageScrolled(int,float,int)
+com.godream.MainApplication:
+    public static final java.lang.String strKey
+com.godream.Manifest
+com.godream.Manifest$permission
+com.godream.NewUserGuiderActivity:
+    private android.widget.LinearLayout newUserGuideLayout
+    23:26:public static void open(android.content.Context)
+com.godream.R:
+    10:10:public R()
+com.godream.R$anim
+com.godream.R$attr
+com.godream.R$color
+com.godream.R$dimen
+com.godream.R$drawable
+com.godream.R$id
+com.godream.R$layout
+com.godream.R$menu
+com.godream.R$string
+com.godream.R$style
+com.godream.R$styleable:
+    public static final int SlidingMenu_behindOffset
+    public static final int SlidingMenu_behindScrollScale
+    public static final int SlidingMenu_behindWidth
+    public static final int SlidingMenu_fadeDegree
+    public static final int SlidingMenu_fadeEnabled
+    public static final int SlidingMenu_mode
+    public static final int SlidingMenu_selectorDrawable
+    public static final int SlidingMenu_selectorEnabled
+    public static final int SlidingMenu_shadowDrawable
+    public static final int SlidingMenu_shadowWidth
+    public static final int SlidingMenu_touchModeAbove
+    public static final int SlidingMenu_touchModeBehind
+    public static final int SlidingMenu_viewAbove
+    public static final int SlidingMenu_viewBehind
+    public static final int finger_backcolor
+    public static final int finger_height
+    public static final int finger_image
+    public static final int finger_image_x
+    public static final int finger_image_y
+    public static final int finger_text
+    public static final int finger_textColor
+    public static final int finger_textSize
+    public static final int finger_text_x
+    public static final int finger_text_y
+    903:903:public R$styleable()
+com.godream.RouteMapActivity:
+    385:386:private void hiddenPopupview()
+    830:839:private void applyRotation(boolean,float,float)
+    112:112:static synthetic android.view.ViewGroup access$19(com.godream.RouteMapActivity)
+    115:115:static synthetic android.widget.RelativeLayout access$20(com.godream.RouteMapActivity)
+    120:120:static synthetic android.widget.RelativeLayout access$21(com.godream.RouteMapActivity)
+com.godream.RouteMapActivity$DisplayNextView
+com.godream.RouteMapActivity$SwapViews
+com.godream.SuperActivity:
+    public static final java.lang.String TAG
+com.godream.adapter.B2C_Cat3_Adapter$ViewHolder:
+    android.widget.ImageView imageArrow
+com.godream.adapter.B2C_Comm_Adapter$ViewHolder:
+    android.widget.RelativeLayout rl_menu_one
+    android.widget.RelativeLayout itemParent
+com.godream.adapter.DrivingRouteAdapter:
+    private android.content.Context ctx
+com.godream.adapter.FragmentViewPagerAdapter:
+    98:98:public int getCurrentPagerIndex()
+    102:102:public com.godream.listener.ViewPagerSelectListener getListener()
+com.godream.adapter.TransitRouteAdapter:
+    private android.content.Context ctx
+com.godream.adapter.WalkingRouteAdapter:
+    private android.content.Context ctx
+com.godream.bean.B2C_Cat2_Bean:
+    58:59:public void setId(java.lang.String)
+    67:68:public void setParentId(java.lang.String)
+    75:76:public void setCatName(java.lang.String)
+com.godream.bean.B2C_Cat3_Bean:
+    99:100:public void setParent_id(java.lang.String)
+    104:104:public java.lang.String getId()
+    109:110:public void setId(java.lang.String)
+    117:118:public void setCatName(java.lang.String)
+com.godream.bean.B2C_Comm_Bean:
+    52:53:public void setId(java.lang.String)
+    59:60:public void setImageId(int)
+    65:66:public void setImageId_Pressed(int)
+    71:72:public void setCatName(java.lang.String)
+    77:78:public void setCatDetail(java.lang.String)
+com.godream.bean.DistrictInfo:
+    17:17:public java.lang.String getId()
+com.godream.bean.HomeGridItem:
+    19:20:public void setId(int)
+    26:27:public void setName(java.lang.String)
+    32:33:public void setImageId(int)
+com.godream.bean.Landscape:
+    private android.graphics.Bitmap image
+    19:20:public void setDays(int)
+    25:26:public void setTitle(java.lang.String)
+    28:28:public android.graphics.Bitmap getImage()
+    31:32:public void setImage(android.graphics.Bitmap)
+com.godream.bean.MenuBean:
+    23:24:public void setContent(java.lang.String)
+    30:31:public void setImageId(int)
+    33:33:public int getId()
+    36:37:public void setId(int)
+com.godream.cache.DiskCache:
+    47:54:public java.io.File getFile(java.lang.String)
+    130:137:public java.io.File createFile(java.lang.String)
+    141:146:public void clean()
+com.godream.cache.ImageCache:
+    private static final int MAX_CAPACITY
+com.godream.cache.ImageCache$1:
+    private static final long serialVersionUID
+com.godream.cache.ImageWorker:
+    149:149:public void clearCache()
+com.godream.common.Constant
+com.godream.defineview.NewUserGuideScrollView:
+    private float curScrollPositionY
+    private android.widget.ImageView guideShineSpot1
+    private android.widget.ImageView guideShineSpot2
+    private android.widget.ImageView guideShineSpot3
+    private android.widget.ImageView guideShineSpot4
+    private android.widget.ImageView guideShineSpot5
+com.godream.defineview.NumAnimationDrawable:
+    private android.graphics.Rect dst
+    94:94:public android.graphics.Bitmap getBitmap()
+    104:112:public void reset()
+com.godream.defineview.XListView:
+    public static final int NONE_LOAD_TYPE
+    public static final int PULL_LOAD_TYPE
+    public static final int AUTO_LOAD_TYPE
+    private static final float OFFSET_RADIO
+    private static final int PULL_LOAD_MORE_DELTA
+    private static final int SCROLLBACK_FOOTER
+    private static final int SCROLLBACK_HEADER
+    private static final int SCROLL_DURATION
+    363:364:public void setRefreshTime(java.lang.String)
+com.godream.defineview.XListViewFooter:
+    public static final int STATE_LOADING
+    public static final int STATE_NORMAL
+    public static final int STATE_READY
+    69:71:public void loading()
+    75:77:public void normal()
+com.godream.defineview.XListViewHeader:
+    public static final int STATE_NORMAL
+    public static final int STATE_READY
+    public static final int STATE_REFRESHING
+com.godream.fragment.SlideFragment:
+    public com.slidingmenu.lib.SlidingMenu slidMenu
+com.godream.listener.ViewPagerSelectListener:
+    public abstract void onPageScrollStateChanged(int)
+    public abstract void onPageScrolled(int,float,int)
+com.godream.provider.Images:
+    22:22:public Images()
+com.godream.service.AsyncImageLoader:
+    69:92:public void setImageView(java.lang.String,android.widget.ImageView,android.widget.TextView,boolean)
+    126:148:private android.graphics.Bitmap getBitmapFromUrl2(java.lang.String)
+    157:192:private android.graphics.Bitmap getBitmapFromUrl(java.lang.String)
+    155:155:static synthetic android.graphics.Bitmap access$0(com.godream.service.AsyncImageLoader,java.lang.String)
+    42:42:static synthetic com.godream.service.MemoryCache access$1(com.godream.service.AsyncImageLoader)
+    43:43:static synthetic com.godream.service.FileCache access$2(com.godream.service.AsyncImageLoader)
+com.godream.service.AsyncImageLoader$AsyncImageLoaderTask
+com.godream.service.DefaultClient:
+    25:25:private DefaultClient()
+com.godream.service.FileCache:
+    34:41:public java.io.File getFile(java.lang.String)
+    45:59:public void put(java.lang.String,android.graphics.Bitmap)
+    62:69:public java.io.File createFile(java.lang.String)
+    73:78:public void clean()
+    81:89:private boolean saveBitmap(java.io.File,android.graphics.Bitmap)
+com.godream.service.HttpConfig
+com.godream.service.MemoryCache:
+    14:23:public android.graphics.Bitmap getCache(java.lang.String)
+    27:32:public void putCache(java.lang.String,android.graphics.Bitmap)
+    35:35:public int getSize()
+com.godream.service.MyIntentService:
+    private android.os.Handler handler
+com.godream.service.Rotate3dAnimation
+com.godream.util.BMapUtil:
+    6:6:public BMapUtil()
+com.godream.util.BaseView:
+    44:45:public void setTitleView(android.content.Context,int,boolean)
+com.godream.util.BaseView$ContentView:
+    83:89:public BaseView$ContentView(com.godream.util.BaseView,android.content.Context,int,boolean)
+com.godream.util.BitmapHelper:
+    static android.content.Context context
+    18:20:public BitmapHelper(android.content.Context)
+    48:48:public static android.graphics.Bitmap bitmapAdder(int,int)
+    53:56:public static android.graphics.Bitmap bitmapAdder(int,int,float)
+    61:61:public static android.graphics.Bitmap decodeFile(java.lang.String,float)
+    71:71:public static android.graphics.Bitmap decodeStream(java.io.InputStream,float)
+    78:88:public static android.graphics.Bitmap decodeURL(java.lang.String)
+    113:113:public static int iPXToPX(android.content.Context,float)
+    118:118:public static float iPXToPXF(android.content.Context,float)
+    123:123:public static int px(float)
+    128:128:public static float px2dip(android.content.Context,float)
+com.godream.util.BitmapHelper$IHelper:
+    public abstract float convertUnitToPixel(android.content.Context,int,float)
+    public abstract android.graphics.Bitmap decodeFile(java.lang.String,float)
+    public abstract android.graphics.Bitmap decodeStream(java.io.InputStream,float)
+    public abstract float px2dip(android.content.Context,float)
+com.godream.util.BitmapHelperSdk1:
+    14:14:public final float convertUnitToPixel(android.content.Context,int,float)
+    19:19:public final android.graphics.Bitmap decodeFile(java.lang.String,float)
+    29:29:public final android.graphics.Bitmap decodeStream(java.io.InputStream,float)
+    39:39:public final float px2dip(android.content.Context,float)
+com.godream.util.BitmapHelperSdk4:
+    22:28:public final android.graphics.Bitmap decodeFile(java.lang.String,float)
+    41:44:public final android.graphics.Bitmap decodeStream(java.io.InputStream,float)
+    54:54:public final float px2dip(android.content.Context,float)
+com.godream.util.CacheTools:
+    9:9:public CacheTools()
+    17:22:public static void removeFromSharedPreferences(java.lang.String)
+    26:29:public static void addToSharedPreferences(java.lang.String,int)
+    33:36:public static void addToSharedPreferences(java.lang.String,long)
+    45:48:public static void addToSharedPreferences(java.lang.String,boolean)
+    54:60:public static int getFromSharedPreferences(java.lang.String,int)
+    67:73:public static long getFromSharedPreferences(java.lang.String)
+    80:86:public static java.lang.String getFromSharedPreferences(java.lang.String,java.lang.String)
+    93:99:public static boolean getFromSharedPreferences(java.lang.String,boolean)
+com.godream.util.Common:
+    5:5:public Common()
+com.godream.util.DPIUtil:
+    private static android.view.Display defaultDisplay
+    6:6:public DPIUtil()
+    17:17:public static int px2dip(android.content.Context,float)
+com.godream.util.LogUtil:
+    private static final java.lang.String TAG
+    60:68:public void v(java.lang.Object)
+    73:81:public void w(java.lang.Object)
+    86:94:public void e(java.lang.Object)
+    99:102:public void e(java.lang.Exception)
+    107:115:public void d(java.lang.Object)
+com.godream.util.UtilTools:
+    16:16:public UtilTools()
+    72:84:public static byte[] getBytes(java.io.InputStream)
+com.slidingmenu.lib.CanvasTransformerBuilder
+com.slidingmenu.lib.CanvasTransformerBuilder$1
+com.slidingmenu.lib.CanvasTransformerBuilder$2
+com.slidingmenu.lib.CanvasTransformerBuilder$3
+com.slidingmenu.lib.CanvasTransformerBuilder$4
+com.slidingmenu.lib.CanvasTransformerBuilder$5
+com.slidingmenu.lib.CanvasTransformerBuilder$6
+com.slidingmenu.lib.CustomViewAbove:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+    private static final boolean USE_CACHE
+    private static final int MAX_SETTLE_DURATION
+    private static final int MIN_DISTANCE_FOR_FLING
+    private static final int INVALID_POINTER
+    263:264:public void setOnOpenedListener(com.slidingmenu.lib.SlidingMenu$OnOpenedListener)
+    267:268:public void setOnClosedListener(com.slidingmenu.lib.SlidingMenu$OnClosedListener)
+    283:286:public void addIgnoredView(android.view.View)
+    289:290:public void removeIgnoredView(android.view.View)
+    293:294:public void clearIgnoredViews()
+    326:326:public int getContentLeft()
+    351:357:public int getChildWidth(int)
+    362:362:public boolean isSlidingEnabled()
+    366:367:public void setSlidingEnabled(boolean)
+    376:377:void smoothScrollTo(int,int)
+    482:484:public void setAboveOffset(int)
+    572:572:public int getTouchMode()
+    901:918:protected boolean canScroll(android.view.View,boolean,int,int,int)
+com.slidingmenu.lib.CustomViewAbove$SimpleOnPageChangeListener:
+    147:147:public void onPageScrollStateChanged(int)
+com.slidingmenu.lib.CustomViewBehind:
+    private static final java.lang.String TAG
+    private static final int MARGIN_THRESHOLD
+    50:51:public void setCanvasTransformer(com.slidingmenu.lib.SlidingMenu$CanvasTransformer)
+    78:82:public void setSecondaryContent(android.view.View)
+    161:161:public int getMode()
+    169:169:public float getScrollScale()
+    178:180:public void setSecondaryShadowDrawable(android.graphics.drawable.Drawable)
+    410:419:public void setSelectedView(android.view.View)
+com.slidingmenu.lib.MenuInterface
+com.slidingmenu.lib.SlidingMenu:
+    private static final java.lang.String TAG
+    public static final int SLIDING_WINDOW
+    public static final int SLIDING_CONTENT
+    public static final int TOUCHMODE_MARGIN
+    public static final int TOUCHMODE_FULLSCREEN
+    public static final int TOUCHMODE_NONE
+    public static final int LEFT
+    public static final int RIGHT
+    public static final int LEFT_RIGHT
+    398:399:public void setSecondaryMenu(int)
+    407:409:public void setSecondaryMenu(android.view.View)
+    426:427:public void setSlidingEnabled(boolean)
+    435:435:public boolean isSlidingEnabled()
+    454:454:public int getMode()
+    463:474:public void setStatic(boolean)
+    497:498:public void showSecondaryMenu()
+    530:531:public void toggle()
+    539:544:public void toggle(boolean)
+    570:570:public int getBehindOffset()
+    594:596:public void setBehindOffsetRes(int)
+    604:605:public void setAboveOffset(int)
+    613:615:public void setAboveOffsetRes(int)
+    647:649:public void setBehindWidthRes(int)
+    657:657:public float getBehindScrollScale()
+    678:679:public void setBehindCanvasTransformer(com.slidingmenu.lib.SlidingMenu$CanvasTransformer)
+    687:687:public int getTouchModeAbove()
+    746:747:public void setSecondaryShadowDrawable(int)
+    755:756:public void setSecondaryShadowDrawable(android.graphics.drawable.Drawable)
+    764:765:public void setShadowWidthRes(int)
+    810:811:public void setSelectedView(android.view.View)
+    828:829:public void setSelectorBitmap(android.graphics.Bitmap)
+    837:838:public void addIgnoredView(android.view.View)
+    846:847:public void removeIgnoredView(android.view.View)
+    853:854:public void clearIgnoredViews()
+    882:883:public void setOnOpenedListener(com.slidingmenu.lib.SlidingMenu$OnOpenedListener)
+    891:892:public void setOnClosedListener(com.slidingmenu.lib.SlidingMenu$OnClosedListener)
+com.slidingmenu.lib.SlidingMenu$1:
+    public static final int POSITION_OPEN
+    public static final int POSITION_CLOSE
+com.slidingmenu.lib.app.SlidingActivity:
+    83:84:public void setBehindContentView(int)
+    111:112:public void toggle()
+    118:119:public void showContent()
+    125:126:public void showMenu()
+    132:133:public void showSecondaryMenu()
+    139:140:public void setSlidingActionBarEnabled(boolean)
+com.slidingmenu.lib.app.SlidingActivityBase
+com.slidingmenu.lib.app.SlidingActivityHelper:
+    96:99:public void setSlidingActionBarEnabled(boolean)
+    150:152:public void setContentView(android.view.View)
+    179:180:public void toggle()
+    193:194:public void showMenu()
+    201:202:public void showSecondaryMenu()
+com.slidingmenu.lib.app.SlidingFragmentActivity:
+    83:84:public void setBehindContentView(int)
+    104:104:public com.slidingmenu.lib.SlidingMenu getSlidingMenu()
+    111:112:public void toggle()
+    118:119:public void showContent()
+    125:126:public void showMenu()
+    132:133:public void showSecondaryMenu()
+    139:140:public void setSlidingActionBarEnabled(boolean)
+com.slidingmenu.lib.app.SlidingListActivity:
+    87:88:public void setBehindContentView(int)
+    108:108:public com.slidingmenu.lib.SlidingMenu getSlidingMenu()
+    115:116:public void toggle()
+    122:123:public void showContent()
+    129:130:public void showMenu()
+    137:138:public void showSecondaryMenu()
+    144:145:public void setSlidingActionBarEnabled(boolean)
+com.slidingmenu.lib.app.SlidingPreferenceActivity:
+    83:84:public void setBehindContentView(int)
+    104:104:public com.slidingmenu.lib.SlidingMenu getSlidingMenu()
+    111:112:public void toggle()
+    118:119:public void showContent()
+    125:126:public void showMenu()
+    132:133:public void showSecondaryMenu()
+    139:140:public void setSlidingActionBarEnabled(boolean)

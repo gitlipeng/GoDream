@@ -1,0 +1,101 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="trans_text_style">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+    </style>
+    <style name="main_bottom_item">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="footbar">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+    </style>
+        <style name="topbar_text">
+	    <item name="android:textSize">23sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textColor">@color/white</item>
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="listview_style">
+   		 <item name="android:layout_width">fill_parent</item>
+   		 <item name="android:layout_height">fill_parent</item>
+   		 <item name="android:cacheColorHint">@null</item>
+   		 <item name="android:fadingEdge">none</item>
+   		 <item name="android:scrollingCache">false</item>
+   		 <item name="android:divider">@null</item>
+   		 <item name="android:fastScrollEnabled">true</item>
+   		 <item name="android:scrollbars">none</item>
+    </style>
+    
+    
+    
+    <style name="userGuideSubtitleStyle">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/new_user_guide_subtitle_text</item>
+    </style>
+    <style name="userGuideTitleStyle">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@color/catalog_listview_item_title_text_color</item>
+    </style>
+    
+    <style name="styleWrapAll">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="foot_bg">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/foot_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">51.0dip</item>
+    </style>
+        <style name="foot_btn">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">1.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+        <style name="styleWrapHeight">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+        <style name="filename">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:singleLine">false</item>
+    </style>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff" >
+
+    <RelativeLayout
+        android:id="@+id/rl_menu_one"
+        android:layout_width="100.0dip"
+        android:layout_height="70.0dip"
+        android:orientation="vertical"
+        android:paddingTop="0.0dip" >
+
+        <ImageView
+            android:id="@+id/imageCat"
+            android:layout_width="100.0dip"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/b2c_cat_ydhw_1" />
+
+        <ImageView
+            android:id="@+id/imageArrow"
+            style="@style/styleWrapAll"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right|center"
+            android:src="@drawable/arrow2"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70.0dip"
+        android:layout_toRightOf="@id/rl_menu_one" >
+
+        <RelativeLayout
+            android:id="@+id/itemParent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:paddingTop="0.0dip" >
+
+            <TextView
+                android:id="@+id/catName"
+                style="@style/styleWrapAll"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="16.0dip"
+                android:text="五金工具"
+                android:textColor="#ff000000"
+                android:textSize="17.0sp" />
+
+            <TextView
+                android:id="@+id/catDetail"
+                style="@style/styleWrapAll"
+                android:layout_below="@id/catName"
+                android:layout_marginBottom="2.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="3.0dip"
+                android:text="(五金工具)"
+                android:textColor="#ff6c6c6c"
+                android:textSize="13.0sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_marginTop="2.0dip"
+                android:background="#ff5c5c5c" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</RelativeLayout>

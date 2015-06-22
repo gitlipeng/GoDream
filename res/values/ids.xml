@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selected_view" type="id"/>
+    
+    <item name="guide_item1_id" type="id"/>
+    <item name="guide_item2_id" type="id"/>
+    <item name="guide_item3_id" type="id"/>
+    <item name="guide_item4_id" type="id"/>
+    <item name="guide_item5_id" type="id"/>
+    <item name="guide_item6_id" type="id"/>
+    <item name="guide_item7_id" type="id"/>
+    <item name="guide_item8_id" type="id"/>
+    <item name="guide_item9_id" type="id"/>
+
+</resources>

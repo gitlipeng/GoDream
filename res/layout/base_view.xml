@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+	<LinearLayout 
+	    android:id="@+id/relative_title"
+	    android:layout_width="fill_parent"
+	    android:layout_height="45dip"
+	    android:orientation="horizontal"
+	    android:background="@drawable/top_bar_bg"
+	   	android:gravity="center_vertical|center_horizontal"
+	    >
+		<RelativeLayout 
+		    android:id="@+id/relative_title_leftUI"
+		    android:layout_weight="1"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:gravity="left"
+		    android:layout_marginLeft="5dip"
+		    >
+<!-- 		    <include layout="@layout/base_view_titleleft"/> -->
+		</RelativeLayout>
+		
+		<RelativeLayout 
+		    android:id="@+id/relative_title_centerUI"
+		   	android:layout_weight="2.5"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:layout_marginLeft="5dip"
+		    >
+<!-- 		    <include layout="@layout/base_view_titlecenter"/> -->
+	    </RelativeLayout>
+	    
+		<RelativeLayout 
+		    android:id="@+id/relative_title_rightUI"
+		    android:layout_weight="1"
+		    android:layout_width="0dip"
+		    android:layout_height="wrap_content"
+		    android:gravity="right"
+		    android:layout_marginRight="5dip"
+		    >
+<!-- 		    <include layout="@layout/base_view_titleright"/> -->
+	    </RelativeLayout>
+	</LinearLayout>
+	
+<!-- 	<LinearLayout  -->
+<!-- 	    android:id="@+id/linear_adView" -->
+<!-- 	    android:layout_width="fill_parent" -->
+<!-- 	    android:layout_height="30dip" -->
+<!-- 	    android:orientation="vertical"  -->
+<!-- 	    android:background="#FFFFFF" -->
+<!-- 	    > -->
+<!-- 		<TextView -->
+<!-- 		    android:id="@+id/tv_adText" -->
+<!-- 		    android:layout_width="fill_parent" -->
+<!-- 		    android:layout_height="wrap_content" -->
+<!-- 		    android:textColor="@color/gray" -->
+<!-- 		    android:textSize="20sp" -->
+<!-- 		    /> -->
+<!-- 	</LinearLayout> -->
+	
+	<LinearLayout 
+	    android:id="@+id/linear_contentView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" 
+	    />
+</LinearLayout>
+

@@ -1,0 +1,45 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_07" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    <com.godream.defineview.MainViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="#000000"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation"/>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_black" />
+            <ImageView
+                android:id="@+id/cursor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="matrix"
+                android:src="@drawable/main_tab_anim_light"
+                android:visibility="gone" />
+        </RelativeLayout>
+        
+    </LinearLayout>
+
+</TabHost>

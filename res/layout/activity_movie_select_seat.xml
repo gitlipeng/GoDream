@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/theatrename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff6dc9a5"
+        android:gravity="center"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="金逸影城苏州文化宫店"
+        android:textColor="#FFFFFF" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp" >
+
+        <com.godream.defineview.SeatSelectView
+            android:id="@+id/smallsurfaceview"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/filmname"
+            style="@style/filename"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="无人区"
+            android:textColor="@color/light_blue" />
+
+        <RelativeLayout
+            android:id="@+id/rl_time"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/filmname"
+            android:background="@color/light_blue"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/tv_showseat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:text="在线选座"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/screenname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/tv_showseat"
+                android:text="2号厅" 
+                android:textSize="16sp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/filmdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@id/screenname"
+                android:text="今天(12月9日)"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:id="@+id/filmtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@id/filmdate"
+                android:text="15:34" 
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/seat_view_bg"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/screen_bg" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:text="屏幕" />
+
+        <com.godream.defineview.SeatSelectView
+            android:id="@+id/mainsurfaceview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_seatmsg"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_blue"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/seatmsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="共XX个座位，剩余XX个座位"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_select_seatmsg"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_blue"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:visibility="gone" >
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:id="@+id/ll_selectseat"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submitorder"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_order_blue_normal"
+            android:text="立即购票"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

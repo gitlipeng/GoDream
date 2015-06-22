@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_bg" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="86.0dip"
+        android:padding="8.0dip" >
+
+        <ImageView
+            android:id="@+id/travelNotesPictrue"
+            android:layout_width="105.0dip"
+            android:layout_height="70.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/travelnotesTreasureFlag"
+            android:layout_width="20.0dip"
+            android:layout_height="28.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5.0dip"
+            android:src="@drawable/note_treasure"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@id/travelNotesPictrue" >
+
+            <TextView
+                android:id="@+id/travelNotesName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/catalog_listview_item_title_text_color"
+                android:textSize="15.0sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/travelNotesItemCommentCountLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="9.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/travelNotesCommentIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/count_comment" />
+
+                    <TextView
+                        android:id="@+id/travelNotesItemCommentCountText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6.0dip"
+                        android:text="1000"
+                        android:textColor="@color/catalog_listview_item_title_text_color"
+                        android:textSize="10.0dip" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/travelNotesItemVisitCountLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/travelNotesItemCommentCountLayout"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/travelNotesVisitIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/count_browse" />
+
+                    <TextView
+                        android:id="@+id/travelNotesItemVisitCountText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6.0dip"
+                        android:text="1000"
+                        android:textColor="@color/catalog_listview_item_title_text_color"
+                        android:textSize="10.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
