@@ -31,7 +31,7 @@ public class MainApplication extends Application {
 
 	private static WeakReference<MainApplication> instance;
 
-	public static final String strKey = "F8c2d28746f33e2108073ee3a64501d8";
+	public static final String strKey = "kTFEyG3xBeQ0Uoyn4HtOvedh";
 
 	private boolean hasStartListener;
 

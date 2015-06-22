@@ -173,7 +173,10 @@ public class HomeFragment extends Fragment implements OnClickListener{
 					break;
 				case 5:
 					//联系人
-					Intent i5 = new Intent("android.intent.action.SEARCH",Uri.parse("content://com.godream.provider.Contacts/contacts"));
+//					Intent i5 = new Intent("android.intent.action.SEARCH",Uri.parse("content://com.godream.provider.Contacts/contacts"));
+//					activity.startActivity(i5);
+					Intent i5 = new Intent(activity,HtmlViewActivity.class);
+					i5.putExtra("curPage", 1);
 					activity.startActivity(i5);
 					break;
 				case 6:
