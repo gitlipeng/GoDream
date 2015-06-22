@@ -59,20 +59,29 @@ public class DiskCache {
 		File f =new File(cacheDir,fileName+".jpg");
 		if(f.exists()){
 			LogUtil.getInstance().i("the file you wanted exists " + f.getAbsolutePath());
+			final BitmapFactory.Options options = new BitmapFactory.Options();
+			options.inJustDecodeBounds = true;
+			BitmapFactory.decodeFile(f.getAbsolutePath(), options);
+			
+			options.inSampleSize = calculateInSampleSize(options,400,400);
+			options.inJustDecodeBounds = false;
+			Bitmap bitmap = BitmapFactory.decodeFile(f.getAbsolutePath(), options);
+			return bitmap;
 		}else{
 			LogUtil.getInstance().i("the file you wanted does not exists: " + f.getAbsolutePath());
+			return null;
 		}
-		File[] files = cacheDir.listFiles();
-		String name = files[Integer.valueOf(fileName)].getAbsolutePath();
-		// First decode with inJustDecodeBounds=true to check dimensions
-		final BitmapFactory.Options options = new BitmapFactory.Options();
-		options.inJustDecodeBounds = true;
-		BitmapFactory.decodeFile(name, options);
-		
-		options.inSampleSize = calculateInSampleSize(options,400,400);
-		options.inJustDecodeBounds = false;
-		Bitmap bitmap = BitmapFactory.decodeFile(name, options);
-		return bitmap;
+//		File[] files = cacheDir.listFiles();
+//		String name = files[Integer.valueOf(fileName)].getAbsolutePath();
+//		// First decode with inJustDecodeBounds=true to check dimensions
+//		final BitmapFactory.Options options = new BitmapFactory.Options();
+//		options.inJustDecodeBounds = true;
+//		BitmapFactory.decodeFile(name, options);
+//		
+//		options.inSampleSize = calculateInSampleSize(options,400,400);
+//		options.inJustDecodeBounds = false;
+//		Bitmap bitmap = BitmapFactory.decodeFile(name, options);
+//		return bitmap;
 	}
 	
 	public static int calculateInSampleSize(BitmapFactory.Options options,

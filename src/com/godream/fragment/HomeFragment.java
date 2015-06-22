@@ -177,8 +177,8 @@ public class HomeFragment extends Fragment implements OnClickListener{
 					activity.startActivity(i5);
 					break;
 				case 6:
-					Intent i6 = new Intent(activity,NfcTestActivity.class);
-//					i6.putExtra("curPage", 2);
+					Intent i6 = new Intent(activity,HtmlViewActivity.class);
+					i6.putExtra("curPage", 2);
 					activity.startActivity(i6);
 					break;
 				case 7:
