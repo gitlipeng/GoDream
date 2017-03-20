@@ -1,0 +1,41 @@
+{
+
+  "applicationId":"com.dcone.smartcore2222",
+  "appName":"移动开发框架",
+  "versionCode":"1",
+  "versionName":"1.0.0",
+
+  "APPID":"0b5951af94724467b65d6c9a94c59c47",
+  "needLogin":false,
+  "showFindPassword":true,
+  "showRegister":true,
+  "logoutBtnPosition":"0",
+
+  "BAIDU_API_KEY":"LgORPbS4YjFycSUwHUmLg17NmuRgdjvd",
+  "youmengkey":"",
+  "sinakey":"",
+  "weixinkey":"",
+  "qqkey":"",
+
+
+  "appIcon":"/Users/digitalchina/Documents/pictures/logo.png",
+  "userNameIcon":"",
+  "passwordIcon":"",
+  "loginLogo":"",
+
+  "guideimages":[
+    "http://www.16sucai.com/uploadfile/2013/0616/20130616030823684.png",
+    "http://d.lanrentuku.com/down/png/1702/50-restaurant/tray.png",
+    "http://d.lanrentuku.com/down/png/1702/50-restaurant/piece-of-cake.png",
+    "http://d.lanrentuku.com/down/png/1702/50-restaurant/mushrooms.png"
+  ],
+
+  "loadingImages":[
+ "http://www.16sucai.com/uploadfile/2013/0616/20130616030823684.png",
+    "http://d.lanrentuku.com/down/png/1702/50-restaurant/tray.png",
+    "http://d.lanrentuku.com/down/png/1702/50-restaurant/piece-of-cake.png",
+    "http://d.lanrentuku.com/down/png/1702/50-restaurant/mushrooms.png"
+  ]
+
+
+}
